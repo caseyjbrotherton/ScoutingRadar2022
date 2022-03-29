@@ -6,4 +6,9 @@
     <style name="Theme.ScoutingRadar2022.RedWatch" parent="Base.Theme.ScoutingRadar2022.RedWatch">
 
     </style>
+    <style name="Theme.ScoutingRadar2022.ausTINcans" parent="Base.Theme.ScoutingRadar2022.ausTINcans">
+
+    </style>
+    <style name="Theme.ScoutingRadar2022.ausTINcansSmall" parent="Base.Theme.ScoutingRadar2022.ausTINcansSmall">
+    </style>
 </resources>

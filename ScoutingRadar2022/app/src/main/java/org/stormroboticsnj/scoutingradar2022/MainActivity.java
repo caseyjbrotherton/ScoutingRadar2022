@@ -25,7 +25,11 @@ public class MainActivity extends AppCompatActivity {
         String themeName = pref.getString(getString(R.string.pref_key_team), getString(R.string.pref_value_team_charge));
         if (themeName.equals(getString(R.string.pref_value_team_charge))) {
             setTheme(R.style.Theme_ScoutingRadar2022_Charge);
-        } else {
+        } else if ( themeName.equals(getString(R.string.pref_value_team_austincans))) {
+	    setTheme(R.style.Theme_ScoutingRadar2022_ausTINcans);
+	} else if ( themeName.equals(getString(R.string.pref_value_team_austincanssmall))) {
+	    setTheme(R.style.Theme_ScoutingRadar2022_ausTINcansSmall);
+	} else {
             setTheme(R.style.Theme_ScoutingRadar2022_RedWatch);
         }
 

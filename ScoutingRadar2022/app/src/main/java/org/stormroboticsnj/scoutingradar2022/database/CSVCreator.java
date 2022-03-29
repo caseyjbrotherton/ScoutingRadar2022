@@ -106,6 +106,7 @@ public class CSVCreator {
         }
         Collections.sort(spinnerNames);
         columnNames.addAll(spinnerNames);
+        columnNames.add("Notes");
 
         // Write the column names (header) to the CSV file
         csvWriter.writeNext(columnNames.toArray(new String[0]), true);
@@ -185,8 +186,10 @@ public class CSVCreator {
         columnNamesSorted.add("match");
         columnNamesSorted.add("is_red");
 
+
         Collections.sort(columnNames);
         columnNamesSorted.addAll(columnNames);
+
 
         columnNames = columnNamesSorted;
 

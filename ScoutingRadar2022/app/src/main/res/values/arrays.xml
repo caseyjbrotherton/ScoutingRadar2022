@@ -25,11 +25,15 @@
     <string-array name="team_entries">
         <item>2722 Charge</item>
         <item>2720 Red Watch</item>
+        <item>2158 AusTIN Cans</item>
+	<item>2158 AusTIN Cans Small</item>
     </string-array>
 
     <string-array name="team_values">
         <item>@string/pref_value_team_charge</item>
         <item>@string/pref_value_team_redwatch</item>
+        <item>@string/pref_value_team_austincans</item>
+        <item>@string/pref_value_team_austincanssmall</item>
     </string-array>
 
     <!-- Scouting Fields -->

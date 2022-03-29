@@ -38,7 +38,13 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
                 if (a != null) {
                     Toast.makeText(a, "Clap Clap Whoosh!", Toast.LENGTH_LONG).show();
                 }
-            }
+            }else if ( sharedPreferences.getString(key,"").equals("2158")) {
+                Activity a = getActivity();
+                if (a != null) {
+                    Toast.makeText(a, "GO CANS!", Toast.LENGTH_LONG).show();
+                }
+	    };
+
         }
     }
 

@@ -31,6 +31,36 @@
         <item name="colorDanger">@color/redWatchDangerColor</item>
 
     </style>
+    <style name="Base.Theme.ScoutingRadar2022.ausTINcans" parent="Base.Theme.ScoutingRadar2022">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ausTINcansPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/ausTINcansPrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/ausTINcansPrimaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ausTINcansSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/ausTINcansSecondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/ausTINcansSecondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorDanger">@color/ausTINcansDangerColor</item>
+	<item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Base.Theme.ScoutingRadar2022.ausTINcansSmall" parent="Base.Theme.ScoutingRadar2022">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ausTINcansPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/ausTINcansPrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/ausTINcansPrimaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ausTINcansSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/ausTINcansSecondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/ausTINcansSecondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorDanger">@color/ausTINcansDangerColor</item>
+    </style>
 
     <style name="Base.Theme.ScoutingRadar2022" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 

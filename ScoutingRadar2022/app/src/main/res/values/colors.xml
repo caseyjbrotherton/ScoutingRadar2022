@@ -19,6 +19,15 @@
     <color name="redWatchSecondaryDarkColor">#3c3c3c</color>
     <color name="redWatchPrimaryTextColor">#ffffff</color>
     <color name="redWatchSecondaryTextColor">#ffffff</color>
-    <color name="redWatchDangerColor">#dd0000</color>
-
+    <color name="redWatchDangerColor">#dd0000</color> 
+    <!-- ausTIN CANS Colors -->
+    <color name="ausTINcansPrimaryColor">#3c3c3c</color>
+    <color name="ausTINcansPrimaryLightColor">#FFEBAD</color>
+    <color name="ausTINcansPrimaryDarkColor">#D6A415</color>
+    <color name="ausTINcansSecondaryColor">#FFCF46</color>
+    <color name="ausTINcansSecondaryLightColor">#9d9d9d</color>
+    <color name="ausTINcansSecondaryDarkColor">#3C3C3C</color>
+    <color name="ausTINcansPrimaryTextColor">#FFCF46</color>
+    <color name="ausTINcansSecondaryTextColor">#FFEBAD</color>
+    <color name="ausTINcansDangerColor">#DC143C</color> 
 </resources>
